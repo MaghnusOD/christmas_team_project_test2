@@ -1,4 +1,4 @@
-package org.example;
+package ie.atu;
 
 import java.util.Random;
 

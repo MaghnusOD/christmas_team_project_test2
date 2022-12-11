@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beecb73b-1fd4-4c01-9e45-da368e429e42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/GenerateValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ParkingAvailability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TicketAvailability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TicketInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ParkingAvailabilityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PaymentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TicketAvailabilityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GenerateValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/GenerateValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ParkingAvailability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/ParkingAvailability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TicketAvailability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/TicketAvailability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TicketInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/TicketInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ParkingAvailabilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ParkingAvailabilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PaymentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PaymentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TicketAvailabilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TicketAvailabilityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserInfoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,16 +41,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/maghn/Documents/java projects/christmas_team_project_test2/src/test/java"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/maghn/Documents/java projects/christmas_team_project_test2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maghn\Documents\java projects\christmas_team_project_test2" />
       <recent name="C:\Users\maghn\Documents\java projects\christmas_team_project_test2\src\test\java" />
       <recent name="C:\Users\maghn\Documents\java projects\christmas_team_project_test2\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ie.atu.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="christmas_team_project_test2" />
@@ -66,8 +66,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ie.atu.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ie.atu.Main" />
+      <module name="christmas_team_project_test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.atu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="ticket_application-1.0.0" />
+          <option name="containerName" value="christmas_cicd_team_project" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ie.atu.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -81,6 +105,18 @@
       <option name="presentableId" value="Default" />
       <updated>1670791508198</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1670792028751</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670792028751</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

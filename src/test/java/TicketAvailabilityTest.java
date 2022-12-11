@@ -1,9 +1,9 @@
-import org.example.TicketAvailability;
+import ie.atu.TicketAvailability;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.example.GenerateValues.generateString;
+import static ie.atu.GenerateValues.generateString;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TicketAvailabilityTest {

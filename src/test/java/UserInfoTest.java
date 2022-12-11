@@ -1,4 +1,4 @@
-import org.example.UserInfo;
+import ie.atu.UserInfo;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

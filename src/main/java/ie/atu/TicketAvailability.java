@@ -1,4 +1,4 @@
-package org.example;
+package ie.atu;
 
 public class TicketAvailability {
     private static int user_seat = 0; // 70
